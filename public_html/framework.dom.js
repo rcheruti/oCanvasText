@@ -29,7 +29,7 @@
   //===========================================================================
   //          EventTarget prototype
 
-  var EventTypeProto = window.EventTarget.prototype;
+  var EventTypeProto = (window.EventTarget || window.Node).prototype;
   EventTypeProto.off = function (eventName, callback, useCapture) {
     return this.removeEventListener(eventName, callback, useCapture);
   };

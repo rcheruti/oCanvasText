@@ -1,0 +1,15 @@
+
+html,body{
+  padding:0;
+  margin:0;
+  border:none;
+  width:100%;
+  height:100%;
+}
+
+
+.fonteTeste{
+  font-family: fredericka-the-great, sans-serif;
+  font-size: 36px;
+}
+
